@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./out-tsc/",
+    "baseUrl": "./",
+    "rootDir": "./src/",
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "types": []
+  },
+  "files": [
+    "./src/index.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "ngc-flatmodule-windows"
+  }
+}

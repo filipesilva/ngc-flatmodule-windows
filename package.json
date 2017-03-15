@@ -1,0 +1,19 @@
+{
+  "name": "ngc-flatmodule-windows",
+  "version": "1.0.0",
+  "description": " ",
+  "repository": {},
+  "scripts": {
+    "build": "ngc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "^4.0.0-rc.3",
+    "@angular/compiler-cli": "^4.0.0-rc.3",
+    "@angular/core": "^4.0.0-rc.3",
+    "rxjs": "^5.2.0",
+    "typescript": "^2.2.1",
+    "zone.js": "^0.7.2"
+  }
+}
